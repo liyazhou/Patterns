@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class Row implements Glyph {
 
-	private List<Character> list = new ArrayList<>();
+	private List<Character> list = new ArrayList<Character>();
 	
 	
 	@Override

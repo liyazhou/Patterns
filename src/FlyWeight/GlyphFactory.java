@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class GlyphFactory {
 
-	private Map<String,Glyph> map = new HashMap<>();
+	private Map<String,Glyph> map = new HashMap<String,Glyph>();
 	
 	public Glyph getGlyph(Context context){
 		String cStr = context.getC()+"";
