@@ -13,6 +13,7 @@ public class Row implements Glyph {
 
 	private List<Character> list = new ArrayList<>();
 	
+	
 	@Override
 	public void draw(Context context) {
 		
