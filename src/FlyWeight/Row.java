@@ -35,6 +35,7 @@ public class Row implements Glyph {
 		for(Character g:list){
 			sb.append(g.getC());
 		}
+		
 		return sb.toString();
 	}
 
